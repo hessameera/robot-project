@@ -12,7 +12,51 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+}
+.subContainer {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.aniDiv {
+  display: flex;
+  flex: 2;
+  position: absolute;
+}
+.adjustDiv {
+  display: flex;
+  flex: 6;  
+  background-color: red;
+  width: 250;
+}
+.tbl {
+  border: 1px solid rgb(0, 0, 0);
+   position: relative;
+}
+.tborder {
+  border-right-width: 1px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+.mTop {
+  margin-top: 6px;
+}
+.mLeft {
+  margin-left: 6;
+}
+.btnWidth {
+  width: 80px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
